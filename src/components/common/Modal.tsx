@@ -35,7 +35,7 @@ export const Modal = ({
     <Transition appear show={isOpen} as={Fragment}>
       <Dialog
         as='div'
-        className='paper-modal relative z-[1000]'
+        className='paper-modal relative z-[-10]'
         onClose={clickOutsideModalToClose ? onClose : () => {}}
       >
         {/* Overlay */}
