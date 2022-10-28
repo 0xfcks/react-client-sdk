@@ -76,7 +76,7 @@ export const CheckoutWithCard = ({
       },
       onOpenKycModal({ iframeLink }) {
         setModalUrl(iframeLink);
-        setIsOpen(true);
+        setIsOpen(false);
       },
       sdkClientSecret,
       appName,
