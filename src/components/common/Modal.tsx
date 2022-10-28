@@ -4,7 +4,7 @@ import React, { Fragment, useEffect } from 'react';
 export const Modal = ({
   isOpen,
   onClose,
-  escapeToClose = true,
+  escapeToClose = false,
   clickOutsideModalToClose = false,
   bgColor = '#FAFAFA',
   children,
